@@ -1,0 +1,98 @@
+@import 'https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.7.0/lxgwwenkaiscreen.min.css';
+
+html {
+  height: 100%;
+  background-color: #f4f4f5;
+}
+
+html.dark {
+  /* background-color: #000 !important; */
+  background-color: #1f1f1f !important;
+}
+
+* {
+  font-family: LXGW WenKai Screen, sans-serif;
+}
+
+.md-content a:any-link {
+  color: rgb(156, 163, 175);
+}
+
+[v-cloak] {
+  display: none;
+}
+
+.md-content pre {
+  /* font-family: 'Courier New', Courier, monospace; */
+  white-space: pre-wrap;
+  /* css-3 */
+  word-wrap: break-word;
+  /* InternetExplorer5.5+ */
+  white-space: -moz-pre-wrap;
+  /* Mozilla,since1999 */
+  white-space: -pre-wrap;
+  /* Opera4-6 */
+  white-space: -o-pre-wrap;
+  /* Opera7 */
+
+  background-color: #000;
+  color: wheat;
+  padding: 4px 10px;
+  border-radius: 5px;
+}
+
+.md-content pre code {
+  font-family: LXGW WenKai Screen, sans-serif;
+  font-size: 12px;
+}
+
+.md-content .mentioned {
+  display: inline-block;
+  margin: 0 4px;
+  text-decoration: underline;
+  text-decoration-color: teal;
+}
+
+.md-content .mentioned.self {
+  color: red;
+}
+
+.md-content .mentioned:hover {
+  color: #000;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.md-content img {
+  max-width: 300px;
+  max-height: 300px;
+}
+
+html.dark .men {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+html.dark .n-tabs-tab--active .men {
+  color: var(--n-tab-text-color-active) !important;
+}
+
+.n-tabs-tab--active .men {
+  color: var(--n-tab-text-color-active) !important;
+}
+
+html.dark .n-tabs-nav--bar-type {
+  /* background-color: black; */
+  background-color: #181818;
+}
+
+/* 设置暗色模式下的滚动条的颜色 */
+.dark ::-webkit-scrollbar {
+  background-color: #202324;
+  color: #aba499;
+}
+.dark ::-webkit-scrollbar-corner {
+    background-color: #181a1b;
+}
+.dark ::-webkit-scrollbar-thumb {
+    background-color: #454a4d;
+}
